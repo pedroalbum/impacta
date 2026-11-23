@@ -1,0 +1,40 @@
+{
+  "valor_mlb_expandido_linhas": 12805,
+  "origem_contagem": {
+    "busca": 6803,
+    "ranking": 5998,
+    "NaN": 4
+  },
+  "busca_linhas": 6803,
+  "csv_produtos_linhas": 100129,
+  "busca_ids_no_csv_pct": 100.0,
+  "apos_juncao": 6803,
+  "descartados_preco_ou_amplitude_nulos": 1,
+  "descartados_amplitude_acima_de_100": 573,
+  "apos_filtro_amplitude": 6229,
+  "dominios_antes_corte": 891,
+  "dominios_depois_corte": 99,
+  "produtos_final": 4242,
+  "descartados_dominio_pequeno": 1987,
+  "produtos_por_dominio": {
+    "count": 99.0,
+    "mean": 42.8,
+    "std": 81.2,
+    "min": 12.0,
+    "25%": 15.0,
+    "50%": 23.0,
+    "75%": 37.0,
+    "max": 726.0
+  },
+  "preco_mediana_resumo": {
+    "count": 4242.0,
+    "mean": 641.07,
+    "std": 5684.68,
+    "min": 8.06,
+    "25%": 52.82,
+    "50%": 133.76,
+    "75%": 349.0,
+    "max": 333333.0
+  },
+  "frete_gratis_pct_media": 58.0
+}

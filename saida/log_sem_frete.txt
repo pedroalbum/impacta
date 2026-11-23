@@ -1,0 +1,16 @@
+semente 42
+semente 7
+semente 123
+semente 2024
+semente 99
+modelo                  CatBoost (sem frete)  TF-IDF + Reg. logística (sem frete)
+macro_f1_mean                         0.4680                               0.5099
+macro_f1_std                          0.0190                               0.0111
+acuracia_mean                         0.4803                               0.5157
+acuracia_std                          0.0214                               0.0123
+erro_medio_faixas_mean                0.8372                               0.7416
+erro_medio_faixas_std                 0.0357                               0.0200
+dentro_de_1_faixa_mean                0.7710                               0.8085
+dentro_de_1_faixa_std                 0.0114                               0.0113
+kappa_quadratico_mean                 0.4109                               0.4776
+kappa_quadratico_std                  0.0372                               0.0243

@@ -1,0 +1,6 @@
+cenario,macro_f1_media,macro_f1_dp,erro_medio_faixas
+Todas as variáveis,0.5894,0.0055,0.5373
+Sem frete grátis,0.5099,0.0111,0.7416
+Sem marca/modelo,0.5693,0.0109,0.5696
+Sem texto do título,0.5317,0.0162,0.6264
+Só frete grátis + domínio,0.3893,0.0089,0.8177

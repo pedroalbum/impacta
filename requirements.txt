@@ -1,0 +1,11 @@
+# Versões usadas no projeto (Python 3.13). Instale com: pip install -r requirements.txt
+pandas==3.1.1
+numpy==2.5.5
+openpyxl==3.1.5
+scikit-learn==1.9.1
+catboost==1.2.10
+matplotlib==3.11.2
+pillow==13.0.0
+reportlab==5.1.0
+# usado apenas pelos scripts de coleta (src/coleta/coleta_categorias.py e meli_client.py)
+requests>=2.32

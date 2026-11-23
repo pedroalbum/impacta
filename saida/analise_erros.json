@@ -1,0 +1,107 @@
+{
+  "matriz_confusao": [
+    [
+      185,
+      24,
+      7,
+      20
+    ],
+    [
+      51,
+      64,
+      29,
+      51
+    ],
+    [
+      26,
+      20,
+      83,
+      87
+    ],
+    [
+      12,
+      14,
+      23,
+      153
+    ]
+  ],
+  "dominios_com_n>=5": 50,
+  "pior_5_dominios": [
+    {
+      "domain_id": "MLB-PNEUMATIC_DRILLS",
+      "n": 10,
+      "acuracia": 0.1,
+      "erro_medio": 1.7
+    },
+    {
+      "domain_id": "MLB-MICROPHONES",
+      "n": 6,
+      "acuracia": 0.16666666666666666,
+      "erro_medio": 2.0
+    },
+    {
+      "domain_id": "MLB-WINES",
+      "n": 6,
+      "acuracia": 0.16666666666666666,
+      "erro_medio": 0.8333333333333334
+    },
+    {
+      "domain_id": "MLB-THERMOSES",
+      "n": 5,
+      "acuracia": 0.2,
+      "erro_medio": 1.0
+    },
+    {
+      "domain_id": "MLB-STATIONARY_BICYCLES",
+      "n": 5,
+      "acuracia": 0.2,
+      "erro_medio": 1.0
+    }
+  ],
+  "melhor_5_dominios": [
+    {
+      "domain_id": "MLB-PHOTOGRAPHIC_BACKDROPS",
+      "n": 5,
+      "acuracia": 0.8,
+      "erro_medio": 0.4
+    },
+    {
+      "domain_id": "MLB-SCULPTURES_AND_STATUES",
+      "n": 6,
+      "acuracia": 0.8333333333333334,
+      "erro_medio": 0.16666666666666666
+    },
+    {
+      "domain_id": "MLB-DRILL_STANDS",
+      "n": 7,
+      "acuracia": 0.8571428571428571,
+      "erro_medio": 0.14285714285714285
+    },
+    {
+      "domain_id": "MLB-FABRICS",
+      "n": 26,
+      "acuracia": 0.8846153846153846,
+      "erro_medio": 0.19230769230769232
+    },
+    {
+      "domain_id": "MLB-HATS_AND_CAPS",
+      "n": 9,
+      "acuracia": 1.0,
+      "erro_medio": 0.0
+    }
+  ],
+  "teste_erro_>=2_faixas": 130,
+  "teste_n": 849,
+  "spearman_len_titulo_vs_preco_dentro_do_dominio_mediana": 0.068,
+  "spearman_len_titulo_vs_faixa_global": -0.111,
+  "macro_f1_regra_so_comprimento": 0.178,
+  "spearman_frete_vs_posicao_de_preco_no_dominio": 0.539,
+  "ranking_n": 5998,
+  "spearman_posicao_ranking_vs_preco": 0.026,
+  "iqr_preco_mediana": {
+    "validos": 12801,
+    "outliers": 1484,
+    "limite_sup": 555.84
+  },
+  "iqr_posicao_ranking_validos": 5998
+}

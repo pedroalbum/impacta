@@ -1,0 +1,35 @@
+# Dados do Mercado Livre: os Termos da API proíbem republicar. Ficam só na máquina local.
+# dados/ recebe os CSVs gerados pelos scripts de src/coleta (ver dados/README.md)
+dados/*
+!dados/README.md
+*.xlsx
+*.pbix
+meli-ml_2.zip
+saida/dataset_modelagem.csv
+saida/predicoes_teste.csv
+saida/casos_maior_erro.csv
+saida/catboost_modelo.cbm
+
+# PDFs originais da equipe e modelo do professor (entram só os 2 PDFs revisados)
+Relatorio final.pdf
+Trabalho completo.pdf
+modelo_relatorio_final_crispdm_dpmi.docx.pdf
+
+# Atividade de Excel (outra disciplina/tarefa; contém gabarito do professor)
+atividade_excel/
+Atividade_Excel*.pdf
+
+# Ambiente e lixo local
+__pycache__/
+*.pyc
+catboost_info/
+.DS_Store
+.venv/
+venv/
+.env
+
+coleta.log
+
+# Geradores dos relatórios em PDF: ficam só na máquina local (o repositório tem só coleta e modelo)
+src/modelo/05_gerar_relatorio.py
+src/modelo/08_gerar_trabalho_completo.py

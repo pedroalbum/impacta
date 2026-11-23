@@ -1,0 +1,3 @@
+modelo,macro_f1_mean,macro_f1_std,acuracia_mean,acuracia_std,erro_medio_faixas_mean,erro_medio_faixas_std,dentro_de_1_faixa_mean,dentro_de_1_faixa_std,kappa_quadratico_mean,kappa_quadratico_std
+CatBoost (sem frete),0.468,0.019,0.4803,0.0214,0.8372,0.0357,0.771,0.0114,0.4109,0.0372
+TF-IDF + Reg. logística (sem frete),0.5099,0.0111,0.5157,0.0123,0.7416,0.02,0.8085,0.0113,0.4776,0.0243

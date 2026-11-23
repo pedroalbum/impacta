@@ -1,0 +1,4 @@
+modelo,f1_treino,f1_teste
+TF-IDF + Reg. logística (nome + domínio),0.8680615277670107,0.49236178704758793
+TF-IDF + Reg. logística (todos os atributos),0.8997495143288884,0.5882139982594939
+CatBoost (texto + atributos),0.7863809214241262,0.5473635159863965
